@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace ExpandableHeader
+namespace Products
 {
   public class DelegateCommand : ICommand
   {

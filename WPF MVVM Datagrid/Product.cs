@@ -1,4 +1,4 @@
-namespace ExpandableHeader
+namespace Products
 {
   public class Product
   {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace ExpandableHeader
+namespace Products
 {
   public interface IFilterOption
   {

@@ -1,8 +1,7 @@
-﻿using System;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Windows.Input;
 
-namespace ExpandableHeader
+namespace Products
 {
   public class ProductsViewModel
   {

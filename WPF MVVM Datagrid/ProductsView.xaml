@@ -1,11 +1,11 @@
-﻿<Window x:Class="ExpandableHeader.ProductsView"
+﻿<Window x:Class="Products.ProductsView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
-        xmlns:ExpandableHeader="clr-namespace:ExpandableHeader"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:products="clr-namespace:Products"
         Title="Products" Height="350" Width="625">
   <Grid>
     <Grid.Resources>
-      <ExpandableHeader:ActivityToBrushConverter x:Key="activityToBrushConverter"/>
+      <products:ActivityToBrushConverter x:Key="activityToBrushConverter"/>
     </Grid.Resources>
     <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding Products}">
       <DataGrid.Columns>

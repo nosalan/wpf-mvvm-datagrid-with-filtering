@@ -1,6 +1,6 @@
 using System;
 
-namespace ExpandableHeader
+namespace Products
 {
   public interface IFilter
   {
